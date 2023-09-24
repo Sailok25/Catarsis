@@ -29,6 +29,8 @@ Este a sido un proyecto bastante curioso, ya que es y será para el grupo musica
 <!-- AGRADECIMIENTOS -->
 ## 🥇 - Agradecimientos
 * <a href="https://chat.openai.com/">ChatGPT</a>
+* <a href="https://music-club.bold-themes.com/main-demo/home/home-female/">Idea de referenicia</a>
+* <a href="Link">...</a>
 * <a href="Link">...</a>
 * <a href="Link">...</a>
 
