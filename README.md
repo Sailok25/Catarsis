@@ -39,7 +39,7 @@ Este a sido un proyecto bastante curioso, ya que es y será para el grupo musica
 
 <!-- LINKS -->
 ## 🛠️ - Otros proyectos
-* <a href="Link">...</a>
-* <a href="Link">...</a>
+* <a href="https://github.com/Sailok25/Bumbaluncia">Bumbaluncia</a>
+* <a href="https://github.com/Sailok25/Rebootiga">Re:Bootiga</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
