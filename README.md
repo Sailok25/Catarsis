@@ -19,27 +19,25 @@ Este a sido un proyecto bastante curioso, ya que es y será para el grupo musica
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
 
+
 ## 📖 - Organización y Historial
 * 1.0
     * Preparación en <b>bloc de notas<b/>
 
 
-
-
 <!-- AGRADECIMIENTOS -->
 ## 🥇 - Agradecimientos
 * <a href="https://chat.openai.com/">ChatGPT</a>
+
+
+## 🙌 - Agradecimientos
 * <a href="https://music-club.bold-themes.com/main-demo/home/home-female/">Idea de referenicia</a>
-* <a href="Link">...</a>
-* <a href="Link">...</a>
-* <a href="Link">...</a>
-
-
 
 
 <!-- LINKS -->
 ## 🛠️ - Otros proyectos
 * <a href="https://github.com/Sailok25/Bumbaluncia">Bumbaluncia</a>
 * <a href="https://github.com/Sailok25/Rebootiga">Re:Bootiga</a>
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
