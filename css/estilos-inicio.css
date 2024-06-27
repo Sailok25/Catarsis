@@ -1,0 +1,295 @@
+/* Apartat dels estils generals */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: auto;
+    background-color: #000000;
+    color: white;
+}
+
+
+
+
+/* Apartado del header */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 2rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logobanda img {
+    width: 20rem;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    text-decoration: none; 
+    color: white;
+    transition: color 0.3s;
+    padding: 2rem;
+}
+
+nav a:hover {
+    transition: color 0.5s;
+    color: #ff9900;
+}
+
+
+
+
+/* Apartado del main */
+main{
+    width: 100%;
+    height: 100%;
+}
+
+/* Section - Intro */
+
+#intro{
+    width: 100%;
+    height: 93rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/background/bgconcierto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portada{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#portada img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+#portada h2{
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+#enfasis{
+    color: #ff9900;
+}
+
+
+
+
+/* Section - Quien Somos */
+#quien_somos{
+    width: auto;
+    height: auto;
+    display: flex;
+    background-image: url(/img/background/bgrallado.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6.7rem;
+    justify-content: space-evenly;
+}
+
+#foto_diseno{
+    width: auto;
+}
+
+#foto_diseno img{
+    width: 100%;
+    height: 100%;
+}
+
+#biografia{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+#biografia h2{
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #ff9900;
+    padding-top: 3rem;
+}
+
+#biografia p{
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: mixed;
+    font-size: 2rem;
+    letter-spacing: 2%;
+    line-height: 22.4px;
+    color: white;
+}
+
+#biografia div p{
+    padding-bottom: 1rem;
+}
+
+#biografia hr{
+    width: 35rem;
+    color: white;
+}
+
+#biografia button{
+    width: 22.3rem;
+    height: 6.2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: white;
+    background-color: #ff9900;
+    cursor: pointer;
+}
+
+#biografia button:hover{
+    background-color: black;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+
+
+
+/* Section - Muestra Musica */
+
+#muestra_musica{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/background/bgrallado.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6.7rem;
+    align-items: center;
+}
+
+#muestra_musica h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size: 6.4rem;
+    color: #ff9900;
+    padding-bottom: 3rem;
+}
+
+#albumes{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 6.4rem;
+    flex-wrap: wrap;
+}
+
+.album{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.6rem;
+    background-color: #141418;
+    align-items: center;
+}
+
+.datos_img{
+    width: 35rem; 
+    height: 35rem;
+}
+
+.caratula{
+    width: 100%; 
+    height: 100%;
+    border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.datos_musica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.album p{
+    color: white;
+    font-size: 2.4rem;
+    font-family: 'Bebas Neue';
+}
+
+.icono {
+    width: 4rem;
+}
+
+#muestra_musica button{
+    width: 22.3rem;
+    height: 6.2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: white;
+    background-color: #ff9900;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+
+#muestra_musica button:hover{
+    background-color: black;
+    border-radius: 8px;
+    border: 1px solid white;
+}
