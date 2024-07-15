@@ -1,5 +1,5 @@
 <!-- LOGO PRESENTATION -->
-<section id= "top">
+<section>
 <div align="center">
   <img src="logo-catarsis.png" alt="Logo">
 </div>
@@ -36,6 +36,3 @@ Este a sido un proyecto bastante curioso, ya que es y será para el grupo musica
 ## 🛠️ - Otros proyectos
 * <a href="https://github.com/Sailok25/Rebootiga">Re:Bootiga</a>
 * <a href="https://github.com/Sailok25/TRRG-FIT">TRRG-FIT</a>
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
