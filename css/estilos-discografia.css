@@ -5,8 +5,7 @@
     display: flex;
     background-image: url(../img/background/bg-rallado.png);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
     padding: 17rem 10rem 0 10rem;
     justify-content: space-evenly;
     flex-direction: column;
@@ -94,8 +93,7 @@
     display: flex;
     background-image: url(../img/background/bg-rallado.png);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
     padding: 17rem 10rem 15rem 10rem;;
     justify-content: space-evenly;
     flex-direction: column;

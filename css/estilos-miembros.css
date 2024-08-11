@@ -5,8 +5,7 @@
     display: flex;
     background-image: url(../img/background/bg-rallado.png);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
     padding-top: 17rem;
     justify-content: space-evenly;
 }
@@ -26,8 +25,7 @@
     flex-direction: column;
     background-image: url(../img/background/bg-rallado.png);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
     justify-content: space-evenly;
     padding: 8.2rem 30rem 8.2rem 30rem;
     row-gap: 8.2rem;
@@ -49,7 +47,6 @@
     justify-content: center;
     gap: 6.4rem;
     flex-wrap: wrap;
-    gap: 6.4rem;
 }
 
 .miembro{
@@ -64,8 +61,14 @@
 }
 
 .datos_miembro{
+    width: auto; 
+    height: auto;
+}
+
+.datos_miembro img{
     width: 35rem; 
-    height: 35rem; 
+    height: 35rem;
+    object-fit: cover; 
 }
 
 .foto_miembro{
