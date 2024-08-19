@@ -27,7 +27,6 @@ header {
     align-items: center;
     justify-content: center;
     background-color: black;
-    padding: 2rem 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -42,14 +41,15 @@ header {
 
 nav {
     display: flex;
-    justify-content: flex-end;
     width: 100%;
     height: 100%;
+    justify-content: space-evenly;
 }
 
 nav ul {
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 nav a {
@@ -57,10 +57,12 @@ nav a {
     font-weight: bold;
     font-size: 3.2rem;
     text-transform: uppercase;
-    text-decoration: none; 
+    text-decoration: none;
     color: white;
     transition: color 0.3s;
     padding: 1.5rem;
+    justify-content: center;
+    display: flex;
 }
 
 nav a:hover {
@@ -68,10 +70,9 @@ nav a:hover {
     color: #ff9900;
 }
 
-nav ul li:nth-child(7) a{
-    color: #ff9900;
+nav a img{
+    width: 17rem;
 }
-
 
 
 
@@ -79,13 +80,14 @@ nav ul li:nth-child(7) a{
 main{
     width: 100%;
     height: 100%;
+    margin-top: 90px;
 }
 
 /* Section - Intro */
 
 #intro{
     width: 100%;
-    height: 93rem;
+    height: 90rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,8 +128,8 @@ main{
 
 /* Section - Quien Somos */
 #quien_somos{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     display: flex;
     background-image: url(../img/background/bg-rallado.png);
     background-position: center;
@@ -405,7 +407,7 @@ main{
     background-image: url(../img/background/bg-rallado.png);
     background-position: center;
     background-repeat: repeat;
-    padding: 20rem 10rem 10rem 10rem;
+    padding: 6.5rem;
     align-items: center;
 }
 
