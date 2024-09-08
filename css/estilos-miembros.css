@@ -10,6 +10,7 @@
 }
 
 #grupo img{
+    width: 100%;
     padding: 3.8rem 11rem 3.8rem 11rem;
 }
 
@@ -26,8 +27,8 @@
     background-position: center;
     background-repeat: repeat;
     justify-content: space-evenly;
-    padding: 8.2rem 30rem 8.2rem 30rem;
-    row-gap: 8.2rem;
+    padding-bottom: 8.2rem;
+    row-gap: 3rem;
 }
 
 #la_banda h2{

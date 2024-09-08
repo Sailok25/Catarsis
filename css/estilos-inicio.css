@@ -70,14 +70,14 @@ nav a:hover {
     color: #ff9900;
 }
 
-nav a img{
+nav a img {
     width: 17rem;
 }
 
 
 
 /* Apartado del main */
-main{
+main {
     width: 100%;
     height: 100%;
     margin-top: 90px;
@@ -85,7 +85,7 @@ main{
 
 /* Section - Intro */
 
-#intro{
+#intro {
     width: 100%;
     height: 90rem;
     display: flex;
@@ -98,20 +98,20 @@ main{
     background-size: cover;
 }
 
-#portada{
+#portada {
     display: flex;
     align-items: center;
     flex-direction: column;
 
 }
 
-#portada img{
+#portada img {
     width: 100%;
     height: auto;
     padding-bottom: 1rem;
 }
 
-#portada h2{
+#portada h2 {
     font-family: 'Bebas Neue';
     font-weight: 100;
     font-size: 4.8rem;
@@ -119,7 +119,7 @@ main{
     letter-spacing: 0.2rem;
 }
 
-#enfasis{
+#enfasis {
     color: #ff9900;
 }
 
@@ -127,7 +127,7 @@ main{
 
 
 /* Section - Quien Somos */
-#quien_somos{
+#quien_somos {
     width: 100%;
     height: 100%;
     display: flex;
@@ -138,16 +138,16 @@ main{
     justify-content: space-evenly;
 }
 
-#foto_diseno{
+#foto_diseno {
     width: auto;
 }
 
-#foto_diseno img{
+#foto_diseno img {
     width: 100%;
     height: 100%;
 }
 
-#biografia{
+#biografia {
     width: 50%;
     height: 100%;
     display: flex;
@@ -156,7 +156,7 @@ main{
     gap: 3.2rem;
 }
 
-#biografia h2{
+#biografia h2 {
     font-family: 'Bebas Neue';
     font-weight: 100;
     font-size: 4.8rem;
@@ -166,7 +166,7 @@ main{
     padding-top: 3rem;
 }
 
-#biografia p{
+#biografia p {
     text-align: left;
     font-family: 'Roboto';
     font-weight: mixed;
@@ -176,16 +176,16 @@ main{
     color: white;
 }
 
-#biografia div p{
+#biografia div p {
     padding-bottom: 1rem;
 }
 
-#biografia hr{
+#biografia hr {
     width: 35rem;
     color: white;
 }
 
-#biografia button{
+#biografia button {
     width: 22.3rem;
     height: 6.2rem;
     font-size: 2rem;
@@ -198,7 +198,7 @@ main{
     cursor: pointer;
 }
 
-#biografia button:hover{
+#biografia button:hover {
     background-color: black;
     border-radius: 8px;
     border: 1px solid white;
@@ -209,7 +209,7 @@ main{
 
 /* Section - Muestra Musica */
 
-#muestra_musica{
+#muestra_musica {
     width: 100%;
     height: 100%;
     display: flex;
@@ -221,7 +221,7 @@ main{
     align-items: center;
 }
 
-#muestra_musica h2{
+#muestra_musica h2 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Bebas Neue';
@@ -231,7 +231,7 @@ main{
     padding-bottom: 3rem;
 }
 
-#albumes{
+#albumes {
     width: 100%;
     align-items: center;
     display: flex;
@@ -240,7 +240,7 @@ main{
     flex-wrap: wrap;
 }
 
-.album{
+.album {
     width: auto;
     display: flex;
     flex-direction: column;
@@ -249,18 +249,18 @@ main{
     align-items: center;
 }
 
-.datos_img{
-    width: 35rem; 
+.datos_img {
+    width: 35rem;
     height: 35rem;
 }
 
-.caratula{
-    width: 100%; 
+.caratula {
+    width: 100%;
     height: 100%;
     border-radius: 1.6rem 1.6rem 0 0;
 }
 
-.datos_musica{
+.datos_musica {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,7 +268,7 @@ main{
     padding: 1rem;
 }
 
-.album p{
+.album p {
     color: white;
     font-size: 2.4rem;
     font-family: 'Bebas Neue';
@@ -278,7 +278,7 @@ main{
     width: 4rem;
 }
 
-.ver-mas{
+.ver-mas {
     width: auto;
     height: auto;
     font-size: 2rem;
@@ -294,7 +294,7 @@ main{
 }
 
 
-.ver-mas:hover{
+.ver-mas:hover {
     background-color: black;
     border-radius: 8px;
     border: 1px solid white;
@@ -305,7 +305,7 @@ main{
 
 /* Section - Eventos */
 
-#eventos{
+#eventos {
     width: 100%;
     height: 100%;
     display: flex;
@@ -318,31 +318,31 @@ main{
     align-items: center;
 }
 
-.tituloapartado{
+.tituloapartado {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Bebas Neue';
     font-weight: 100;
     font-size: 6.4rem;
     color: #ffffff;
-    padding-bottom: 3rem; 
+    padding-bottom: 3rem;
 }
 
-#conjuntoanual{
+#conjuntoanual {
     width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
 }
 
-#ano{
+#ano {
     text-align: center;
     font-family: 'Bebas Neue';
     font-size: 4rem;
     padding-bottom: 3rem;
 }
 
-.detallesevento{
+.detallesevento {
     background-color: #141418;
     border-radius: 1.2rem;
     padding: 1.6rem;
@@ -352,7 +352,7 @@ main{
     justify-content: space-evenly
 }
 
-.detalles{
+.detalles {
     width: auto;
     height: auto;
     display: flex;
@@ -360,28 +360,28 @@ main{
     gap: 4.8rem;
 }
 
-.mes_dia{
-    width: auto; 
+.mes_dia {
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.mes_dia p{
+.mes_dia p {
     font-size: 2rem;
-    color:#ff9900;
+    color: #ff9900;
     font-family: 'Bebas Neue';
 }
 
-.mes_dia p:nth-last-child(){
+.mes_dia p:nth-last-child() {
     font-size: 3.2rem;
     color: #ff9900;
     font-family: 'Bebas Neue';
 }
 
-.ciudad_direccion{
-    width: auto; 
+.ciudad_direccion {
+    width: auto;
     height: auto;
     display: flex;
     align-items: center;
@@ -389,7 +389,7 @@ main{
     flex-direction: row;
 }
 
-.ciudad_direccion p{
+.ciudad_direccion p {
     font-size: 2.4rem;
     color: #ffffff;
     font-family: 'Bebas Neue';
@@ -399,7 +399,7 @@ main{
 
 
 /* Section - Merch */
-#merch{
+#merch {
     width: 100%;
     height: 100%;
     display: flex;
@@ -411,7 +411,7 @@ main{
     align-items: center;
 }
 
-#productos{
+#productos {
     width: 100%;
     align-items: center;
     display: flex;
@@ -420,7 +420,7 @@ main{
     flex-wrap: wrap;
 }
 
-.producto{
+.producto {
     width: auto;
     display: flex;
     flex-direction: column;
@@ -431,25 +431,25 @@ main{
     padding-bottom: 3.2rem;
 }
 
-.fotoproducto{
-    width: 32rem; 
-    height: 32rem; 
+.fotoproducto {
+    width: 32rem;
+    height: 32rem;
     overflow: hidden;
 }
 
-.fotoproducto img{
-    width: 100%; 
+.fotoproducto img {
+    width: 100%;
     height: 100%;
     border-radius: 1.6rem 1.6rem 0 0;
 }
 
-.tituloproducto{
+.tituloproducto {
     color: rgb(0, 0, 0);
     font-size: 2.4rem;
     font-family: 'Bebas Neue';
 }
 
-.descripcionproducto{
+.descripcionproducto {
     font-size: 1.6rem;
     font-family: 'Roboto';
     color: #000000;
@@ -459,13 +459,13 @@ main{
     flex-direction: column;
 }
 
-.tallasproducto{
+.tallasproducto {
     font-size: 1.6rem;
     font-family: 'Roboto';
     color: #000000;
 }
 
-.botoncompra{
+.botoncompra {
     width: auto;
     height: auto;
     font-size: 2rem;
@@ -478,26 +478,26 @@ main{
     cursor: pointer;
     margin-top: 1.7rem;
     padding: 1.6rem 6.4rem 1.6rem 6.4rem;
-    border: none;   
+    border: none;
 }
 
-.botoncompra:hover{
+.botoncompra:hover {
     background-color: black;
     border-radius: 8px;
-    border: 1px solid white;  
+    border: 1px solid white;
 }
 
 
 
 
 /* Apartado del Footer*/
-footer{
+footer {
     width: 100%;
     height: 100%;
     background-color: #0F0F0F;
 }
 
-#contenido_total{
+#contenido_total {
     width: 100%;
     height: 100%;
     display: flex;
@@ -508,7 +508,7 @@ footer{
     gap: 3rem;
 }
 
-#plataforma_media{
+#plataforma_media {
     width: 100%;
     height: 100%;
     display: flex;
@@ -517,16 +517,16 @@ footer{
     flex-direction: row;
 }
 
-#redes_musica{
-    width: auto; 
+#redes_musica {
+    width: auto;
     height: auto;
     display: flex;
     align-items: center;
     gap: 20rem;
 }
 
-#redes{
-    width: auto; 
+#redes {
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -534,14 +534,14 @@ footer{
     gap: 2rem;
 }
 
-#redes h2{
+#redes h2 {
     font-size: 3.2rem;
     font-family: 'Bebas Neue';
     color: #ffffff;
     text-align: center;
 }
 
-.gruporedes{
+.gruporedes {
     width: auto;
     height: auto;
     display: flex;
@@ -549,19 +549,19 @@ footer{
     gap: 1.6rem;
 }
 
-.gruporedes a{
+.gruporedes a {
     text-decoration: none;
 }
 
-.gruporedes a img{
+.gruporedes a img {
     width: 4rem;
     border-radius: 1.6rem;
     padding: 5px;
     background-color: #ff9900;
 }
 
-#musica{
-    width: auto; 
+#musica {
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -569,14 +569,14 @@ footer{
     gap: 2rem;
 }
 
-#musica h2{
+#musica h2 {
     font-size: 3.2rem;
     font-family: 'Bebas Neue';
     color: #ffffff;
     text-align: center;
 }
 
-.grupoplataforma{
+.grupoplataforma {
     width: auto;
     height: auto;
     display: flex;
@@ -584,23 +584,23 @@ footer{
     gap: 1.6rem;
 }
 
-.grupoplataforma a{
+.grupoplataforma a {
     text-decoration: none;
 }
 
-.grupoplataforma a img{
+.grupoplataforma a img {
     width: 4rem;
     border-radius: 1.6rem;
     padding: 5px;
     background-color: #ff9900;
 }
 
-#contenido_total hr{
+#contenido_total hr {
     width: 70rem;
-    color: white;  
+    color: white;
 }
 
-#donaciones{
+#donaciones {
     width: 100%;
     height: 100%;
     display: flex;
@@ -609,8 +609,8 @@ footer{
     flex-direction: row;
 }
 
-#donacion{
-    width: auto; 
+#donacion {
+    width: auto;
     height: auto;
     display: flex;
     align-items: center;
@@ -618,14 +618,14 @@ footer{
     gap: 1.5rem;
 }
 
-#donacion h2{
+#donacion h2 {
     font-size: 3.2rem;
     font-family: 'Bebas Neue';
     color: #ffffff;
     text-align: center;
 }
 
-#donacion a{
+#donacion a {
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Oswald';
@@ -636,7 +636,7 @@ footer{
     padding: 5px;
 }
 
-#propiedad{
+#propiedad {
     width: 100%;
     height: 100%;
     display: flex;
@@ -647,8 +647,8 @@ footer{
     background-color: #000000;
 }
 
-#politicas_terminos{
-    width: auto; 
+#politicas_terminos {
+    width: auto;
     height: auto;
     display: flex;
     align-items: center;
@@ -657,14 +657,14 @@ footer{
     padding-top: 1rem;
 }
 
-#politicas{
+#politicas {
     width: auto;
     height: auto;
     display: flex;
     gap: 1.6rem;
 }
 
-#politicas a{
+#politicas a {
     text-decoration: none;
     font-size: 1.4rem;
     font-family: 'Oswald';
@@ -672,14 +672,14 @@ footer{
     text-align: center;
 }
 
-#terminos{
+#terminos {
     width: auto;
     height: auto;
     display: flex;
     gap: 1.6rem;
 }
 
-#terminos a{
+#terminos a {
     text-decoration: none;
     font-size: 1.4rem;
     font-family: 'Oswald';
@@ -687,21 +687,21 @@ footer{
     text-align: center;
 }
 
-#no_copy{
+#no_copy {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
 
-#no_copy p{
+#no_copy p {
     color: #323232;
     text-align: center;
     font-size: 1.4rem;
     font-family: 'Oswald';
 }
 
-#no_copy p a{
+#no_copy p a {
     text-decoration: none;
     color: #323232;
 }
@@ -725,6 +725,74 @@ footer{
 /* MQ Mòvil (mediano) || 481px - 768px */
 
 /* MQ Tablet (vertical) || 769px - 1024px */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* Apartado del header */
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    nav a {
+        font-size: 2.8rem;
+        padding: 1rem;
+    }
+
+
+
+    /* Apartado del main */
+    main {
+        width: 100%;
+        height: 100%;
+        margin-top: 90px;
+    }
+
+
+
+    /* Section - Intro */
+
+    #intro {
+        width: 100%;
+        display: flex;
+        padding: 7rem;
+        height: auto;
+    }
+
+
+
+
+    #quien_somos {
+       flex-direction: column;
+    }
+
+    #biografia {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 3.2rem;
+    }
+
+    #biografia hr{
+        width: 100%;
+    }
+
+    #biografia a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+}
 
 /* MQ Tablet (horizontal) || 1025px - 1280px */
 

@@ -89,3 +89,25 @@
     color: #ffffff;
     font-family: 'Bebas Neue';
 }
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .mes_dia p{
+        font-size: 4rem;
+        color:#ff9900;
+        font-family: 'Bebas Neue';
+    }
+    
+    .mes_dia p:nth-last-child(){
+        font-size: 5.2rem;
+    }
+    
+    
+    .ciudad_direccion p{
+        font-size: 4rem;
+        color: #ffffff;
+        font-family: 'Bebas Neue';
+    }
+}

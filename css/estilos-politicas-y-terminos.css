@@ -81,3 +81,69 @@
 #correo-enfasis{
     color:#ff9900
 }
+
+
+
+
+
+/* Terminos de Servicio */
+#terminos-y-condiciones{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(../img/background/bg-rallado.png);
+    background-position: center;
+    background-repeat: repeat;
+    padding: 6.7rem;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#terminos-y-condiciones h1{
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #ff9900;
+    padding-top: 3rem;
+}
+
+#terminos-y-condiciones h2 {
+    font-family: 'Bebas Neue';
+    font-weight: 300;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #ff9900;
+    padding-top: 3rem;
+}
+
+
+#terminos-y-condiciones p{
+    font-family: 'Oswald';
+    font-size: 2rem;
+    color: white;
+}
+
+#terminos-y-condiciones a{
+    color:#ff9900
+    
+}
+
+#terminos-y-condiciones ul{
+    padding-left: 2rem;
+}
+
+#terminos-y-condiciones ul li{
+    padding-bottom: 2rem;
+    font-family: 'Oswald';
+    font-size: 2rem;
+    color: white;
+}
+
+#terminos-y-condiciones ul li::marker{
+    color:#ff9900;
+    font-size: 1.2rem;
+}
