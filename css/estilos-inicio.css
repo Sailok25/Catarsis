@@ -721,7 +721,99 @@ footer {
 
 
 /* MQ Mòvil (pequeño) || 320px - 480px */
+@media (min-width: 0px) and (max-width: 480px) {
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
 
+    nav a {
+        font-size: 1.5rem;
+        padding: 6px;
+    }
+
+    
+    nav a img{
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+    }
+
+    #intro {
+        width: 100%;
+        display: flex;
+        padding: 2rem;
+        height: auto;
+    }
+
+    #portada h2{
+        font-size: 4rem;
+    }
+
+    #quien_somos {
+       flex-direction: column;
+       padding: 3rem;
+    }
+
+    #biografia {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 3.2rem;
+    }
+
+    #biografia button{
+        width: 13rem;
+        height: 5.2rem;
+    }
+
+    #biografia h2{
+        font-size: 4rem;
+    }
+
+    #biografia hr{
+        width: 100%;
+    }
+
+    #biografia a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    #biografia p {
+        font-size: 1.5rem;
+    }
+
+    #muestra_musica{
+        padding: 3rem;
+    }
+
+    .datos_img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ver-mas{
+        width: 13rem;
+        height: 5.2rem; 
+        padding: 0;
+    } 
+}
 /* MQ Mòvil (mediano) || 481px - 768px */
 
 /* MQ Tablet (vertical) || 769px - 1024px */
