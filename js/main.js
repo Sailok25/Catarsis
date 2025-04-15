@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const conjuntoFotos = document.getElementById('conjunto-fotos');
     const rutaCarpeta = 'img/sections/galeria/random/';
-    const numImagenes = 4;
+    const numImagenes = 7;
 
     for (let i = 1; i <= numImagenes; i++) {
         const img = document.createElement('img');
