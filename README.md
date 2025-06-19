@@ -20,19 +20,6 @@ Este a sido un proyecto bastante curioso, ya que es y será para el grupo musica
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
 
 
-## 📖 - Organización y Historial
-* 1.0
-    * Preparación en <b>bloc de notas<b/>
-
-
 <!-- AGRADECIMIENTOS -->
-## 🥇 - Agradecimientos
-* <a href="https://chat.openai.com/">ChatGPT</a>
-
-* <a href="https://www.figma.com/community/file/1175476688639242963/maquette-site-web-pour-le-groupe-de-musique-170-39">Idea de referenicia</a>
-
-
-<!-- LINKS -->
-## 🛠️ - Otros proyectos
-* <a href="https://github.com/Sailok25/Rebootiga">Re:Bootiga</a>
-* <a href="https://github.com/Sailok25/TRRG-FIT">TRRG-FIT</a>
+## 🥇 - Idea de referenicia
+* <a href="https://www.figma.com/community/file/1175476688639242963/maquette-site-web-pour-le-groupe-de-musique-170-39"> Enlace</a>
